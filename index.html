@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,9 +16,54 @@
       rel="stylesheet"
       href="frontend/libraries/bootstrap/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
   </head>
   <body>
-    <h1>HAlo</h1>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <a href="#" class="navbar-brand">
+          <img src="frontend/images/nc-logo.png" alt="NaraiCoder Logo" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="navb"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto ml-right">
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Paket Travel</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropwdown-toggle"
+                id="navbardrop"
+                data-toggle="dropdown"
+                >Services</a
+              >
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link</a>
+                <a href="#" class="dropdown-item">Link</a>
+                <a href="#" class="dropdown-item">Link</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Testimonial</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.js"
       integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
