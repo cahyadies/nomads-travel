@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #e6e8eb;
   font-family: "Assistant", sans-serif;
   color: #071c4d;
 }
@@ -8,7 +8,27 @@ body {
   max-height: 40px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0px;
+}
+
 .btn-login {
   background-color: #071c4d;
+  color: white;
+}
+.btn-login:hover {
+  background-color: #153786;
   color: white;
 }/*# sourceMappingURL=main.css.map */
